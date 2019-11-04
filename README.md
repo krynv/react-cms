@@ -19,7 +19,7 @@ REACT_APP_API_SPACE_ID=[Space ID key]
 REACT_APP_API_TOKEN=[Content Delivery API key]
 ```
 
-Place the `.env` file in the root of this repository. 
+Place the `.env` file in the root of this repository.  
 
 > **NOTE**: This application is bootstrapped with Create React App, therefore all of the required `.env` variables must be prefixed with something like `REACT_APP_...` in order for this application to work. 
 

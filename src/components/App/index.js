@@ -5,7 +5,7 @@ export default class App extends React.Component {
         console.log(`test`);
         return (
             <div>
-                <h3>Hello World</h3>
+                <h1>Hello World</h1>
             </div>
         );
     }

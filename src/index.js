@@ -9,11 +9,13 @@ import store from './store';
 import * as serviceWorker from './serviceWorker';
 
 import App from './components/App';
+import Posts from './components/Posts';
 
 ReactDOM.render(
     <Provider store={store}>
         <Router history={history} routes={routes} >
-            <Route exact path={routes.HOME} component={() => <App />} />
+            <Route exact path={routes.APP} component={() => <App />} />
+            <Route exact path={routes.POSTS} component={() => <Posts />} />
         </Router>
     </Provider>,
     document.getElementById('root')
